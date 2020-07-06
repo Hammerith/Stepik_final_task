@@ -1,0 +1,4 @@
+.idea/
+Stepik_final_task/.pytest_cache
+*__pycache__/
+env/
