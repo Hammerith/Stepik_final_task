@@ -42,8 +42,6 @@ def test_add_to_basket_get_code(browser, link):
     page.solve_quiz_and_get_code()
     page.should_be_add_message()
     page.basket_equal_product_price()
-    time.sleep(120)
-
 
 @pytest.mark.xfail
 def test_guest_cant_see_success_message_after_adding_product_to_basket(browser):
